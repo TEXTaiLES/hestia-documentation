@@ -3,7 +3,9 @@
 This chapter describes how each tool should authenticate users using **Directus credentials**.
 
 We cover two runtime scenarios:
-1. **Service environment** (internal network / Docker): eg. Directus reachable as `http://directus:8055`
+
+1. **Service environment** (internal network / Docker): eg. Directus reachable as `http://directus:8055`.
+
 2. **External environment** (outside the service): Directus reachable via `https://textailes.athenarc.gr`
 
 ## Directus base URL (`DIRECTUS_URL`)
@@ -63,7 +65,7 @@ Authorization: Bearer <access_token>
 
 ## Code Examples
 
-### Simple Authentication (credential verification only)
+###  Internal Environment Example
 
 If you only need to verify credentials without making further Directus API calls:
 
