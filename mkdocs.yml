@@ -1,0 +1,40 @@
+# Site information
+site_name: PORTAL Documentation
+site_url: https://sitename.example
+site_author: Ioanna Kechlimpari
+site_description: PORTAL Documentation
+
+# Copyright
+copyright: Copyright &copy; 2025 TEXTaiLES
+
+# Config
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+ # logo: assets/thoth-logo.png #portal-logo
+ # favicon: assets/thoth-logo.png #portal-logo
+
+# Extra
+extra:
+  social: 
+    - icon: fontawesome/brands/github
+      link: https://github.com/TEXTaiLES
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+
+# Page
+nav:
+  - Deployment: 
+    - Public link: deployment/link.md
+  - Manual:
+    - Home: manual/home.md
+    - Collections: manual/collections.md
+    - Tools: manual/toolbox.md
+  - Artifact Accessibility:
+    - Admin User: accessibility/adminUser.md
+    - Public User: accessibility/publicUser.md
