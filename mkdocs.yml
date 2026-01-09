@@ -38,3 +38,5 @@ nav:
   - Artifact Accessibility:
     - Admin User: accessibility/adminUser.md
     - Public User: accessibility/publicUser.md
+  - Integration:
+    - Tool Authentication with Directus: integration/directus-login.md
