@@ -1,8 +1,8 @@
 # Site information
-site_name: PORTAL Documentation
+site_name: HESTIA Documentation
 site_url: https://sitename.example
 site_author: Ioanna Kechlimpari
-site_description: PORTAL Documentation
+site_description: HESTIA Documentation
 
 # Copyright
 copyright: Copyright &copy; 2025 TEXTaiLES
@@ -29,14 +29,18 @@ extra_javascript:
 
 # Page
 nav:
-  - Deployment: 
-    - Public link: deployment/link.md
-  - Manual:
-    - Home: manual/home.md
-    - Collections: manual/collections.md
-    - Tools: manual/toolbox.md
-  - Artifact Accessibility:
-    - Admin User: accessibility/adminUser.md
-    - Public User: accessibility/publicUser.md
-  - Integration:
-    - Tool Authentication with Directus: integration/directus-login.md
+  - Portal:
+    - General Information: 
+      - License: portal/generalInformation/licenses.md
+    - Deployment: 
+      - Public link: portal/deployment/link.md
+    - Manual:
+      - Home: portal/manual/home.md
+      - Collections: portal/manual/collections.md
+      - Tools: portal/manual/toolbox.md
+    - Artifact Accessibility:
+      - Admin User: portal/accessibility/adminUser.md
+      - Public User: portal/accessibility/publicUser.md
+    - Integration:
+      - Token-Based Authentication: portal/integration/directus-login.md
+      - Cookie-Based Authentication: portal/integration/directus-cookie.md

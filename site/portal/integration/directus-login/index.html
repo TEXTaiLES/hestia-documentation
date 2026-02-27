@@ -12,25 +12,29 @@
         <meta name="author" content="Ioanna Kechlimpari">
       
       
+        <link rel="canonical" href="https://sitename.example/portal/integration/directus-login/">
+      
+      
+        <link rel="prev" href="../../accessibility/publicUser/">
       
       
       
         
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
     
     
       
-        <title>HESTIA Documentation</title>
+        <title>Tool Authentication with Directus - HESTIA Documentation</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.618322db.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
       
         
-        <link rel="stylesheet" href="/assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +53,9 @@
       
     
     
-      <link rel="stylesheet" href="/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -73,6 +77,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#authentication-directus" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -85,7 +94,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="HESTIA Documentation" class="md-header__button md-logo" aria-label="HESTIA Documentation" data-md-component="logo">
+    <a href="../../.." title="HESTIA Documentation" class="md-header__button md-logo" aria-label="HESTIA Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -105,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              Tool Authentication with Directus
             
           </span>
         </div>
@@ -183,7 +192,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="HESTIA Documentation" class="md-nav__button md-logo" aria-label="HESTIA Documentation" data-md-component="logo">
+    <a href="../../.." title="HESTIA Documentation" class="md-nav__button md-logo" aria-label="HESTIA Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -198,18 +207,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
         
           
           <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
@@ -230,7 +241,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -295,7 +306,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/portal/generalInformation/licenses/" class="md-nav__link">
+      <a href="../../generalInformation/licenses/" class="md-nav__link">
         
   
   
@@ -378,7 +389,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/portal/deployment/link/" class="md-nav__link">
+      <a href="../../deployment/link/" class="md-nav__link">
         
   
   
@@ -461,7 +472,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/portal/manual/home/" class="md-nav__link">
+      <a href="../../manual/home/" class="md-nav__link">
         
   
   
@@ -489,7 +500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/portal/manual/collections/" class="md-nav__link">
+      <a href="../../manual/collections/" class="md-nav__link">
         
   
   
@@ -517,7 +528,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/portal/manual/toolbox/" class="md-nav__link">
+      <a href="../../manual/toolbox/" class="md-nav__link">
         
   
   
@@ -600,7 +611,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/portal/accessibility/adminUser/" class="md-nav__link">
+      <a href="../../accessibility/adminUser/" class="md-nav__link">
         
   
   
@@ -628,7 +639,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/portal/accessibility/publicUser/" class="md-nav__link">
+      <a href="../../accessibility/publicUser/" class="md-nav__link">
         
   
   
@@ -661,18 +672,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_5" checked>
         
           
           <label class="md-nav__link" for="__nav_1_5" id="__nav_1_5_label" tabindex="0">
@@ -693,7 +706,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -708,10 +721,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/portal/integration/directus-login/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tool Authentication with Directus
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -727,6 +767,143 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#directus-base-url-directus_url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Directus base URL (DIRECTUS_URL)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Directus base URL (DIRECTUS_URL)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#service-environment-internal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Service environment (internal)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#external-environment-public" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External environment (public)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#authentication-flow-token-based" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Authentication flow (token-based)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Authentication flow (token-based)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-login-get-access-token" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1 — Login (get access token)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-handle-successful-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2 — Handle successful authentication
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Code Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Code Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#internal-environment-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Internal Environment Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#external-environment-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External Environment Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -764,6 +941,133 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#directus-base-url-directus_url" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Directus base URL (DIRECTUS_URL)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Directus base URL (DIRECTUS_URL)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#service-environment-internal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Service environment (internal)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#external-environment-public" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External environment (public)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#authentication-flow-token-based" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Authentication flow (token-based)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Authentication flow (token-based)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-login-get-access-token" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1 — Login (get access token)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-handle-successful-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2 — Handle successful authentication
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Code Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Code Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#internal-environment-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Internal Environment Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#external-environment-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External Environment Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -776,8 +1080,111 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="authentication-directus">Authentication (Directus)</h1>
+<p>This chapter describes how each tool should authenticate users using <strong>Directus credentials</strong>.</p>
+<p>We cover two runtime scenarios:</p>
+<ol>
+<li>
+<p><strong>Service environment</strong> (internal network / Docker): eg. Directus reachable as <code>http://directus:8055</code>.</p>
+</li>
+<li>
+<p><strong>External environment</strong> (outside the service): Directus reachable via <code>https://textailes.athenarc.gr</code></p>
+</li>
+</ol>
+<h2 id="directus-base-url-directus_url">Directus base URL (<code>DIRECTUS_URL</code>)</h2>
+<p><strong>Do not hardcode</strong> URLs in code. Use an environment variable.</p>
+<h3 id="service-environment-internal">Service environment (internal)</h3>
+<p>Inside Docker / internal network, use the Directus service name, eg:</p>
+<ul>
+<li><code>DIRECTUS_URL=http://directus:8055</code></li>
+</ul>
+<h3 id="external-environment-public">External environment (public)</h3>
+<p>Outside Docker, use the public host:</p>
+<ul>
+<li><code>DIRECTUS_URL=https://textailes.athenarc.gr</code></li>
+</ul>
+<h2 id="authentication-flow-token-based">Authentication flow (token-based)</h2>
+<h3 id="step-1-login-get-access-token">Step 1 — Login (get access token)</h3>
+<p>Send credentials to Directus:</p>
+<p><strong>Endpoint:</strong> <code>POST {DIRECTUS_URL}/auth/login</code></p>
+<p><strong>Headers:</strong></p>
+<pre><code>Content-Type: application/json
+</code></pre>
+<p><strong>Request Body:</strong></p>
+<pre><code class="language-json">{
+  &quot;email&quot;: &quot;user@example.com&quot;,
+  &quot;password&quot;: &quot;secret&quot;
+}
+</code></pre>
+<p><strong>Response (success):</strong></p>
+<pre><code class="language-json">{
+  &quot;data&quot;: {
+    &quot;access_token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...&quot;,
+    &quot;expires&quot;: 900000,
+    &quot;refresh_token&quot;: &quot;abc123...&quot;
+  }
+}
+</code></pre>
+<h3 id="step-2-handle-successful-authentication">Step 2 — Handle successful authentication</h3>
+<p>If the response is successful (HTTP 200), the credentials are valid. The tool can then create its own session (example: <code>login_user(user_instance)</code>).</p>
+<p><strong>Optional:</strong> If your tool needs to make additional requests to Directus API, extract the <code>access_token</code> from the response and include it in subsequent requests:</p>
+<pre><code>Authorization: Bearer &lt;access_token&gt;
+</code></pre>
+<h2 id="code-examples">Code Examples</h2>
+<h3 id="internal-environment-example">Internal Environment Example</h3>
+<p>If you only need to verify credentials without making further Directus API calls:</p>
+<pre><code class="language-python">import requests
+
+DIRECTUS_URL = &quot;http://directus:8055&quot;
+
+resp = requests.post(
+    f&quot;{DIRECTUS_URL}/auth/login&quot;,
+    json={
+        &quot;email&quot;: username,
+        &quot;password&quot;: password
+    },
+    headers={&quot;Content-Type&quot;: &quot;application/json&quot;}
+)
+
+if resp.ok:
+    # Credentials are valid, create your own session
+    login_user(user_instance)
+</code></pre>
+<h3 id="external-environment-example">External Environment Example</h3>
+<pre><code class="language-python">import requests
+
+DIRECTUS_URL = &quot;https://textailes.athenarc.gr&quot;
+
+# Same authentication flow as internal service
+resp = requests.post(
+    f&quot;{DIRECTUS_URL}/auth/login&quot;,
+    json={
+        &quot;email&quot;: username,
+        &quot;password&quot;: password
+    },
+    headers={&quot;Content-Type&quot;: &quot;application/json&quot;}
+)
+
+if resp.ok:
+    login_user(user_instance)
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -834,12 +1241,12 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": [], "search": "/assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.e71a0d61.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
       
-        <script src="/javascripts/extra.js"></script>
+        <script src="../../../javascripts/extra.js"></script>
       
     
   </body>

@@ -1,12 +1,12 @@
-# PORTAL DOCUMENTATION
+# HESTIA DOCUMENTATION
 <!--
 <p align="center">
-    <a href = "https://github.com/TEXTaiLES/Portal" target="_blank">
-        <img src="assets/thoth-logo.png" alt="PORTAL" width="250"/>
+    <a href = "https://github.com/TEXTaiLES/HESTIA" target="_blank">
+        <img src="assets/thoth-logo.png" alt="HESTIA" width="250"/>
     </a>
 </p> -->
 
-## General Information
+## Portal
 
 Portal is a public web page that serves as the digital archive for the [TEXTaiLES](https://www.echoes-eccch.eu/textailes/) project. It is built as a [Directus](https://directus.io/) extension that connects the project database to a public-facing interface, enabling users to:
 
@@ -23,7 +23,7 @@ Portal is a public web page that serves as the digital archive for the [TEXTaiLE
 </p>
 
 <p align="center">
-    <a href = "https://osiris.itabc.cnr.it/aton/" target="_blank">
+    <a href = "https://directus.io/" target="_blank">
         <img src="assets/directus-logo.png" alt="PORTAL" width="150"/>
     </a>
     <a href = "https://modelviewer.dev/" target="_blank">
