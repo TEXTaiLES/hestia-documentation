@@ -12,13 +12,11 @@
         <meta name="author" content="Ioanna Kechlimpari">
       
       
-        <link rel="canonical" href="https://sitename.example/portal/manual/home/">
+        <link rel="canonical" href="https://sitename.example/portal/integration/directus-cookie/">
       
       
-        <link rel="prev" href="../../deployment/link/">
+        <link rel="prev" href="../directus-login/">
       
-      
-        <link rel="next" href="../collections/">
       
       
         
@@ -29,7 +27,7 @@
     
     
       
-        <title>Home - HESTIA Documentation</title>
+        <title>Cookie-Based Authentication - HESTIA Documentation</title>
       
     
     
@@ -80,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#home" class="md-skip">
+        <a href="#cookie-based-authentication-flow" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Cookie-Based Authentication
             
           </span>
         </div>
@@ -424,20 +422,18 @@
                 
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_3" >
         
           
           <label class="md-nav__link" for="__nav_1_3" id="__nav_1_3_label" tabindex="0">
@@ -458,7 +454,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -473,37 +469,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Home
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../manual/home/" class="md-nav__link">
         
   
   
@@ -519,76 +488,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Overview
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Overview">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#collections-tab" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Collections Tab
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#toolbox-tab" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Toolbox Tab
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#statistics" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Statistics
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -601,7 +500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../collections/" class="md-nav__link">
+      <a href="../../manual/collections/" class="md-nav__link">
         
   
   
@@ -629,7 +528,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../toolbox/" class="md-nav__link">
+      <a href="../../manual/toolbox/" class="md-nav__link">
         
   
   
@@ -773,18 +672,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1_5" checked>
         
           
           <label class="md-nav__link" for="__nav_1_5" id="__nav_1_5_label" tabindex="0">
@@ -805,7 +706,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_1_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_1_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -823,7 +724,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../integration/directus-login/" class="md-nav__link">
+      <a href="../directus-login/" class="md-nav__link">
         
   
   
@@ -848,10 +749,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../integration/directus-cookie/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cookie-Based Authentication
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -867,6 +795,159 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#authentication-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Authentication Flow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Authentication Flow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-user-accesses-a-protected-tool" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. User accesses a protected tool
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-redirect-to-portal-login" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Redirect to Portal Login
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-portal-login-checks-for-existing-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Portal Login checks for existing session
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-tool-validates-the-token" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Tool validates the token
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Implementation Requirements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Implementation Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#public-routes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Public Routes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cookie-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cookie Configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#complete-implementation-example-pythonflask" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Complete Implementation Example (Python/Flask)
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -922,14 +1003,36 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Overview">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How It Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#authentication-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Authentication Flow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Authentication Flow">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#collections-tab" class="md-nav__link">
+  <a href="#1-user-accesses-a-protected-tool" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Collections Tab
+        1. User accesses a protected tool
       
     </span>
   </a>
@@ -937,10 +1040,32 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#toolbox-tab" class="md-nav__link">
+  <a href="#2-redirect-to-portal-login" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Toolbox Tab
+        2. Redirect to Portal Login
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-portal-login-checks-for-existing-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Portal Login checks for existing session
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-tool-validates-the-token" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Tool validates the token
       
     </span>
   </a>
@@ -953,10 +1078,49 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#statistics" class="md-nav__link">
+  <a href="#implementation-requirements" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Statistics
+        Implementation Requirements
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Implementation Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#public-routes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Public Routes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cookie-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cookie Configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#complete-implementation-example-pythonflask" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Complete Implementation Example (Python/Flask)
       
     </span>
   </a>
@@ -980,22 +1144,192 @@
 
 
 
-<h1 id="home">Home</h1>
-<p>The Home page serves as the landing page for the Portal, providing visitors with an overview of the TEXTaiLES project and quick access to the main features of the digital archive.</p>
+<h1 id="cookie-based-authentication-flow">Cookie-Based Authentication Flow</h1>
+<p>This chapter describes how tools in the Textailes toolbox handle authentication using <strong>cookie-based sessions</strong> with the centralized portal login.</p>
 <h2 id="overview">Overview</h2>
-<p>The Portal is organized into two main sections accessible from the navigation:</p>
-<h3 id="collections-tab">Collections Tab</h3>
-<p>The Collections tab provides access to the complete digital archive of artifacts.</p>
-<h3 id="toolbox-tab">Toolbox Tab</h3>
-<p>The Toolbox tab offers direct access to the TEXTaiLES suite of tools.</p>
-<h2 id="statistics">Statistics</h2>
-<p>The Portal currently features:</p>
-<ul>
-<li><strong>Digitized Artifacts</strong>: All objects from various archaeological collections</li>
-<li><strong>Use Cases</strong>: 8 documented use cases demonstrating archeological collections</li>
-<li><strong>Available Tools</strong>: 6 specialized tools for artifact analysis and annotation</li>
-</ul>
-<p><em>Note: Statistics are updated regularly as new artifacts and tools are added to the archive.</em></p>
+<p>When a user attempts to access a tool from the toolbox that requires authentication, the tool automatically redirects the user to the <strong>Portal Login Page</strong>. After successful authentication, the user is redirected back to the tool with a validated session cookie.</p>
+<p>This approach provides a <strong>seamless Single Sign-On (SSO) experience</strong> across all tools in the ecosystem.</p>
+<h2 id="how-it-works">How It Works</h2>
+<p>The authentication system uses a <strong>Directus refresh token</strong> stored in a cookie named <code>textailes_refresh_token</code>. </p>
+<p><strong>Key characteristics:</strong>
+- <strong>Domain-wide sharing</strong>: Cookie uses domain <code>.textailes.athenarc.gr</code>, making it accessible to all tools
+- <strong>Automatic validation</strong>: Tools validate tokens on each request using <code>POST /auth/refresh</code>
+- <strong>Short-lived access tokens</strong>: Each request gets a fresh access token for API calls</p>
+<h2 id="authentication-flow">Authentication Flow</h2>
+<h3 id="1-user-accesses-a-protected-tool">1. User accesses a protected tool</h3>
+<p>When a user tries to access a tool that requires authentication:
+- The tool checks for the <code>textailes_refresh_token</code> cookie
+- If missing or invalid, the tool redirects to the Portal Login</p>
+<h3 id="2-redirect-to-portal-login">2. Redirect to Portal Login</h3>
+<p>The tool redirects the user to the Portal Login page with a <code>redirect_url</code> parameter:</p>
+<pre><code>https://textailes.athenarc.gr/archive/user/login?redirect_url=&lt;TOOL_URL&gt;
+</code></pre>
+<p><strong>URL Parameters:</strong>
+- <code>redirect_url</code> - The URL of the tool where the user should be redirected after successful login</p>
+<h3 id="3-portal-login-checks-for-existing-session">3. Portal Login checks for existing session</h3>
+<p><strong>Endpoint:</strong> <code>POST {DIRECTUS_URL}/auth/refresh</code></p>
+<p><strong>Request Body:</strong></p>
+<pre><code class="language-json">{
+  &quot;refresh_token&quot;: &quot;&lt;token_from_cookie&gt;&quot;
+}
+</code></pre>
+<p><strong>Scenario A — Valid Refresh Token:</strong>
+- Portal finds valid <code>textailes_refresh_token</code> cookie
+- Calls <code>/auth/refresh</code> to validate token
+- If valid, portal automatically redirects to <code>redirect_url</code> without showing login form
+- Cookie is already set, so tool can use it immediately</p>
+<p><strong>Scenario B — No Valid Token:</strong>
+- User sees the login form
+- User enters credentials (email + password)
+- Portal calls <code>/auth/login</code> and receives refresh token
+- Portal sets <code>textailes_refresh_token</code> cookie with domain <code>.textailes.athenarc.gr</code>
+- User is redirected to <code>redirect_url</code></p>
+<h3 id="4-tool-validates-the-token">4. Tool validates the token</h3>
+<p>When the user returns to the tool:
+1. Tool reads <code>textailes_refresh_token</code> from cookies
+2. Tool calls <code>POST /auth/refresh</code> with the token in request body
+3. Directus responds with:
+   <code>json
+   {
+     "data": {
+       "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+       "expires": 900000,
+       "refresh_token": "new_refresh_token_if_rotated"
+     }
+   }</code>
+4. Tool stores <code>access_token</code> in request context (e.g., Flask's <code>g</code> object)
+5. If a new <code>refresh_token</code> is provided, tool updates the cookie
+6. User gains access to protected resources</p>
+<h2 id="implementation-requirements">Implementation Requirements</h2>
+<h3 id="public-routes">Public Routes</h3>
+<p>Tools can define public routes that don't require authentication:</p>
+<pre><code class="language-python">PUBLIC_PATHS = {&quot;/health&quot;, &quot;/status&quot;}           # Exact matches
+PUBLIC_PREFIXES = (&quot;/static/&quot;, &quot;/public/&quot;)      # Prefix matches
+</code></pre>
+<h3 id="cookie-configuration">Cookie Configuration</h3>
+<p><strong>Cookie Name:</strong> <code>textailes_refresh_token</code></p>
+<p><strong>Cookie Settings:</strong></p>
+<pre><code class="language-python">resp.set_cookie(
+    COOKIE_NAME,
+    refresh_token_value,
+    httponly=True,        # Prevent JavaScript access
+    secure=is_https,          # Only send over HTTPS (production)
+    samesite=&quot;Lax&quot;,       # CSRF protection
+    path=&quot;/&quot;,             # Available site-wide
+    domain=&quot;.textailes.athenarc.gr&quot;  # Shared across subdomains
+)
+</code></pre>
+<h2 id="complete-implementation-example-pythonflask">Complete Implementation Example (Python/Flask)</h2>
+<p>This is a complete, production-ready example showing how to implement cookie-based authentication in a Flask tool:</p>
+<pre><code class="language-python">from __future__ import annotations
+import os
+import requests
+from urllib.parse import quote
+from flask import request, redirect, g, make_response
+
+
+# --- Configuration ---
+DIRECTUS_URL = &quot;https://textailes.athenarc.gr&quot;
+COOKIE_NAME = &quot;textailes_refresh_token&quot;
+LOGIN_URL = &quot;https://textailes.athenarc.gr/archive/user/login&quot;
+APP_BASE = &quot;http://toolExample.textailes.athenarc.gr:0000&quot;  # Your tool's base URL
+
+# Routes that don't require authentication
+PUBLIC_PATHS = {&quot;/health&quot;}
+PUBLIC_PREFIXES = (&quot;/static/&quot;,)
+
+
+def redirect_to_login():
+    &quot;&quot;&quot;Redirect user to portal login with return URL.&quot;&quot;&quot;
+    # Preserve the full path including query string
+    next_path = request.full_path if request.query_string else request.path
+    redirect_url = APP_BASE.rstrip(&quot;/&quot;) + next_path
+    return redirect(f&quot;{LOGIN_URL}?redirect_url={quote(redirect_url, safe=':/?=&amp;')}&quot;)
+
+
+def directus_refresh(refresh_token: str):
+    &quot;&quot;&quot;
+    Validate refresh token with Directus.
+    Returns token data (access_token, refresh_token) or None if invalid.
+    &quot;&quot;&quot;
+    try:
+        r = requests.post(
+            f&quot;{DIRECTUS_URL}/auth/refresh&quot;,
+            json={&quot;refresh_token&quot;: refresh_token},
+            timeout=8,
+        )
+        if r.status_code != 200:
+            print(&quot;refresh failed:&quot;, r.status_code, r.text[:200], flush=True)
+            return None
+
+        data = r.json()
+        return data.get(&quot;data&quot;) or data
+    except Exception as e:
+        print(&quot;refresh exception:&quot;, e, flush=True)
+        return None
+
+
+def init_auth(app):
+    &quot;&quot;&quot;Initialize authentication middleware for Flask app.&quot;&quot;&quot;
+
+    @app.before_request
+    def auth_gate():
+        &quot;&quot;&quot;Check authentication before each request.&quot;&quot;&quot;
+        path = request.path
+
+        # Skip authentication for public routes
+        if path in PUBLIC_PATHS or any(path.startswith(p) for p in PUBLIC_PREFIXES):
+            return None
+
+        # Check for refresh token cookie
+        refresh_token = request.cookies.get(COOKIE_NAME)
+        if not refresh_token:
+            return redirect_to_login()
+
+        # Validate token with Directus
+        tokens = directus_refresh(refresh_token)
+        if not tokens:
+            return redirect_to_login()
+
+        # Store access token for this request
+        g.access_token = tokens.get(&quot;access_token&quot;)
+
+        # Check if we received a new refresh token (token rotation)
+        new_refresh = tokens.get(&quot;refresh_token&quot;)
+        if new_refresh and new_refresh != refresh_token:
+            g.new_refresh_token = new_refresh
+        else:
+            g.new_refresh_token = None
+
+        return None
+
+    @app.after_request
+    def apply_refresh_cookie(resp):
+        &quot;&quot;&quot;Update refresh token cookie if rotated.&quot;&quot;&quot;
+        new_refresh = getattr(g, &quot;new_refresh_token&quot;, None)
+        if not new_refresh:
+            return resp
+
+        # Determine cookie domain
+        host = request.host.split(&quot;:&quot;)[0]
+        domain = &quot;.textailes.athenarc.gr&quot; if host.endswith(&quot;textailes.athenarc.gr&quot;) else None
+
+        # Check if connection is secure
+        is_https = request.is_secure or request.headers.get(&quot;X-Forwarded-Proto&quot;) == &quot;https&quot;
+
+        # Update cookie with new refresh token
+        resp.set_cookie(
+            COOKIE_NAME,
+            new_refresh,
+            httponly=True,
+            secure=is_https,
+            samesite=&quot;Lax&quot;,
+            path=&quot;/&quot;,
+            domain=domain,
+        )
+        return resp
+
+</code></pre>
 
 
 

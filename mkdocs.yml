@@ -37,10 +37,13 @@ nav:
     - Manual:
       - Home: portal/manual/home.md
       - Collections: portal/manual/collections.md
+      - Artefact Page: portal/manual/artefact.md
+      - Add Artefact: portal/manual/add-artefact.md
       - Tools: portal/manual/toolbox.md
     - Artifact Accessibility:
-      - Admin User: portal/accessibility/adminUser.md
       - Public User: portal/accessibility/publicUser.md
+      - Admin & Editor Users: portal/accessibility/adminUser.md
     - Integration:
       - Token-Based Authentication: portal/integration/directus-login.md
       - Cookie-Based Authentication: portal/integration/directus-cookie.md
+      - EGI Check-In Login: portal/integration/egi-login.md

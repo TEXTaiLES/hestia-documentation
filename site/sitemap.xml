@@ -2,38 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sitename.example/</loc>
-         <lastmod>2026-01-14</lastmod>
+         <lastmod>2026-02-27</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/portal/accessibility/adminUser/</loc>
-         <lastmod>2026-01-14</lastmod>
+         <lastmod>2026-02-27</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/portal/accessibility/publicUser/</loc>
-         <lastmod>2026-01-14</lastmod>
+         <lastmod>2026-02-27</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/portal/deployment/link/</loc>
-         <lastmod>2026-01-14</lastmod>
+         <lastmod>2026-02-27</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/portal/generalInformation/licenses/</loc>
-         <lastmod>2026-01-14</lastmod>
+         <lastmod>2026-02-27</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/portal/integration/directus-cookie/</loc>
+         <lastmod>2026-02-27</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/portal/integration/directus-login/</loc>
-         <lastmod>2026-01-14</lastmod>
+         <lastmod>2026-02-27</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/portal/manual/collections/</loc>
-         <lastmod>2026-01-14</lastmod>
+         <lastmod>2026-02-27</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/portal/manual/home/</loc>
-         <lastmod>2026-01-14</lastmod>
+         <lastmod>2026-02-27</lastmod>
     </url>
     <url>
          <loc>https://sitename.example/portal/manual/toolbox/</loc>
-         <lastmod>2026-01-14</lastmod>
+         <lastmod>2026-02-27</lastmod>
     </url>
 </urlset>

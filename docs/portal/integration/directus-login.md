@@ -1,4 +1,4 @@
-# Authentication (Directus)
+# Token-Based Authentication Flow
 
 This chapter describes how each tool should authenticate users using **Directus credentials**.
 
