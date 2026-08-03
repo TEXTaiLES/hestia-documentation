@@ -1,43 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://sitename.example/</loc>
-         <lastmod>2026-02-27</lastmod>
+         <loc>https://textailes.github.io/hestia-documentation/</loc>
+         <lastmod>2026-08-03</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/portal/accessibility/adminUser/</loc>
-         <lastmod>2026-02-27</lastmod>
+         <loc>https://textailes.github.io/hestia-documentation/portal/accessibility/adminUser/</loc>
+         <lastmod>2026-08-03</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/portal/accessibility/publicUser/</loc>
-         <lastmod>2026-02-27</lastmod>
+         <loc>https://textailes.github.io/hestia-documentation/portal/accessibility/publicUser/</loc>
+         <lastmod>2026-08-03</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/portal/deployment/link/</loc>
-         <lastmod>2026-02-27</lastmod>
+         <loc>https://textailes.github.io/hestia-documentation/portal/deployment/link/</loc>
+         <lastmod>2026-08-03</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/portal/generalInformation/licenses/</loc>
-         <lastmod>2026-02-27</lastmod>
+         <loc>https://textailes.github.io/hestia-documentation/portal/generalInformation/licenses/</loc>
+         <lastmod>2026-08-03</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/portal/integration/directus-cookie/</loc>
-         <lastmod>2026-02-27</lastmod>
+         <loc>https://textailes.github.io/hestia-documentation/portal/integration/directus-cookie/</loc>
+         <lastmod>2026-08-03</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/portal/integration/directus-login/</loc>
-         <lastmod>2026-02-27</lastmod>
+         <loc>https://textailes.github.io/hestia-documentation/portal/integration/directus-login/</loc>
+         <lastmod>2026-08-03</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/portal/manual/collections/</loc>
-         <lastmod>2026-02-27</lastmod>
+         <loc>https://textailes.github.io/hestia-documentation/portal/integration/egi-login/</loc>
+         <lastmod>2026-08-03</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/portal/manual/home/</loc>
-         <lastmod>2026-02-27</lastmod>
+         <loc>https://textailes.github.io/hestia-documentation/portal/manual/add-artefact/</loc>
+         <lastmod>2026-08-03</lastmod>
     </url>
     <url>
-         <loc>https://sitename.example/portal/manual/toolbox/</loc>
-         <lastmod>2026-02-27</lastmod>
+         <loc>https://textailes.github.io/hestia-documentation/portal/manual/artefact/</loc>
+         <lastmod>2026-08-03</lastmod>
+    </url>
+    <url>
+         <loc>https://textailes.github.io/hestia-documentation/portal/manual/collections/</loc>
+         <lastmod>2026-08-03</lastmod>
+    </url>
+    <url>
+         <loc>https://textailes.github.io/hestia-documentation/portal/manual/home/</loc>
+         <lastmod>2026-08-03</lastmod>
+    </url>
+    <url>
+         <loc>https://textailes.github.io/hestia-documentation/portal/manual/toolbox/</loc>
+         <lastmod>2026-08-03</lastmod>
     </url>
 </urlset>
